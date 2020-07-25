@@ -1,0 +1,92 @@
+*:focus {
+    outline: 0 !important;
+}
+.register_container{
+    margin-top: 5em;
+    border: 1px solid white;
+    width: 85em;
+    height: 35em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px 10px rgb(0,0,0,0.2);
+    display: flex;
+}
+.register_img{
+    width: 50em;
+    height: 34.8em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+}
+.name_register{
+font-size: 1.5em;
+text-align: center;
+border-radius: 0.5em;
+margin-bottom: 0.5em;
+}
+.email_register{
+font-size: 1.5em;
+text-align: center;
+border-radius: 0.5em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+.password_register{
+font-size: 1.5em;
+text-align: center;
+border-radius: 0.5em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+
+}
+.button_register{
+    width: 7em;
+    font-size: 1.1em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+.mini_logo_container{
+    display: flex;
+    margin-left: 11em;
+    margin-bottom: 2em;
+}
+.facebook_logo{
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgb(0,0,0,0.1);
+}
+.google_logo{
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    margin-left: 1em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgb(0,0,0,0.1);
+}
+.linkedin_logo{
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    margin-left: 1em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgb(0,0,0,0.1);
+}
+.facebook_logo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+.google_logo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+.linkedin_logo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
